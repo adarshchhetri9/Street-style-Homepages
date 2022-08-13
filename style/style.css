@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+    outline: 0;
+    font-family: Orbitron;
+}
+
+.navbar-container{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.list{
+    display: flex;
+    margin : 20px 35px ;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 18px;
+
+}
+
+.list-item{
+    padding: 10px 40px;
+}
+
+.container{
+    margin: 50px;
+}
+
+.button-group{
+    display: flex;
+    padding: 20px;
+}
+
+.nav-button{
+    background-color: transparent;
+    border:  2px solid gray;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: auto 10px;
+
+}
+
+.search-icon{
+    padding:6px 1px;
+}
+
+.hero-container{
+    display: flex;
+    position: relative;
+}
+
+
+.guu{
+    position: relative;
+    z-index: 1;
+    top: 230px;
+    height: 300px;
+    left: 130px;
+}
+
+.imgs{
+    position: absolute;
+    z-index: 2;
+    left: 1px;
+    top: 20px;
+    height: 450px;
+}
+
+.hero-container-right{
+    padding: 20px;
+    margin-top: 110px;
+}
+
+.hero-heading{
+    text-align: center;
+    font-size: 40px;
+}
+
+.hero-description{
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.icons{
+    position: relative;
+    top:120px;
+    text-align: center;
+}
+
+.contact-heading{
+    text-align: center;
+    top:110px;
+    position: relative;
+}
+
+.but{
+    text-align: center;
+    
+}
+
+.button-email{
+    background-color: transparent;
+    padding: 3px 20px;
+    margin-right: 20px;
+    border-radius: 7px;
+}
+
+.button-join{
+    background-color: transparent;
+    padding: 3px 20px;
+    border-radius: 7px;
+
+}
+
+.button-email:hover{
+    background: black;
+    color:white
+}
+
+.button-join:hover{
+    background: black;
+    color:white
+}
+
+.star img{
+    position: relative;
+    left:750px;
+    top:60px;
+    height:60px
+}
+
+.globe img{
+    position: relative;
+    left: 200px;
+
+}
+
+.img{
+    height: 30px;
+}
