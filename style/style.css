@@ -9,23 +9,19 @@
 
 .navbar-container{
     display: flex;
-    flex: 1;
     justify-content: space-around;
     align-items: center;
 } 
 
 .list{
+    margin-left: 30px;
     display: flex;
-    margin : 20px 35px ;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
     font-size: 18px;
-
+    gap: 50px;
 }
 
-.list-item{
-    padding: 10px 40px;
-}
 
 .container{
     margin: 50px;
@@ -42,7 +38,6 @@
     padding: 10px 30px;
     border-radius: 10px;
     margin: auto 10px;
-
 }
 
 .search-icon{
@@ -53,7 +48,6 @@
     display: flex;
     position: relative;
 }
-
 
 .guu{
     position: relative;
@@ -69,6 +63,10 @@
     left: 1px;
     top: 20px;
     height: 450px;
+}
+.list-item:hover{
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .hero-container-right{
@@ -137,9 +135,8 @@
 .globe img{
     position: relative;
     left: 200px;
-
 }
 
 .img{
-    height: 30px;
+    height: 40px;
 }
