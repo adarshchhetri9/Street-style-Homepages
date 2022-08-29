@@ -1,6 +1,6 @@
-# Developer-Landing-Page
+# Street Style Homepages
 
-Homepage of Developer-Landing Webpage
+Homepage of Street Style Webpage
 
 ### Things I Learnt
 - Css Positions 
